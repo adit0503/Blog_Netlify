@@ -1,8 +1,5 @@
-/*!
- * Start Bootstrap - Clean Blog v5.0.8 (https://startbootstrap.com/template-overviews/clean-blog)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-clean-blog/blob/master/LICENSE)
- */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
  body{font-size:20px;color:#212529;}
  p{line-height:1.5;margin:30px 0;}
  p a{text-decoration:underline}
@@ -65,3 +62,50 @@
  footer{padding:10px 0 15px}
  footer .list-inline{margin:0;padding:0}
  footer .copyright{font-size:14px;margin-bottom:0;text-align:center}
+
+
+/* Commenting section */
+ #allcomments {
+     width: 90%;
+     margin: 1em 0 4em 1em;
+     padding: 1%;
+ }
+
+ ul#pastcomments {
+     list-style-type: none;
+ }
+
+ ul#pastcomments li:before {
+     font-family: FontAwesome;
+     content: "\f086";
+     font-size: 24pt;
+     color: gray;
+     margin-left: -42px;
+     padding-right: 10px;
+     position: relative;
+ }
+
+ ul#pastcomments li {
+     font-size: 20px;
+     margin: 0 0 1em 0;
+ }
+
+ ul#pastcomments li span {
+     font-size: 60%;
+     color: gray;
+     font-style: italic;
+ }
+
+ form#newcomment textarea {
+     height: 72px;
+ }
+
+ form#newcomment label {
+     display: inline-block;
+     margin: 1em 0 0 0;
+ }
+
+ form#newcomment textarea,
+ form#newcomment input[type="text"] {
+     margin-top: 0;
+ }
